@@ -86,5 +86,5 @@ $ npm start
 ## Contact
 
 - Linkedin [linkedin](https://www.linkedin.com/in/umar-farooq-823509220/)
-- GitHub [@your-username](https://github.com/umar5678)
-- Facebook [@your-twitter](https://web.facebook.com/profile.php?id=100072458869497)
+- GitHub [Github] (https://github.com/umar5678)
+- Facebook [Facebook](https://web.facebook.com/profile.php?id=100072458869497)
