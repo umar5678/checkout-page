@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora&family=Montserrat&display=swap');
+
+:root{
+    --font-pri:  'Montserrat', sans-serif;
+}
+
+.container{
+    width: min(960px, 93vw);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5rem;
+}
+h1{
+    width: min(960px, 93vw);
+    margin-inline: auto;  
+    margin-top: 3rem;
+}
+h1, h2, h3, h4, h5, h6, p, article{
+    font-family: var(--font-pri);
+}
+.forms{
+    margin-top: 6rem;
+}
+form p, .country p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-bottom: 4px;
+}
+.contact-info h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.shipping-info h4{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom:10px;
+}
+
+.icon {
+  padding: 14px;
+  color: #828282;
+  min-width: 50px;
+  text-align: left;
+}
+
+.input-field {
+  width: 465px ;
+  min-width: 300px;
+  padding: 10px;
+  text-align: left;
+  padding-left: 3rem ;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  margin-bottom: .7rem;
+  outline: transparent;
+}
+
+
+.code{
+    display: flex;
+    gap: 24px;
+}
+.country select{
+  width: 217px;
+  border: 1px solid #828282;
+}
+.postal-code form{
+    display: flex;
+    flex-direction: column;
+}
+
+.postal-code input{
+    padding-left: 2px;
+    width:217px ;
+    min-width: 162px;
+    height: 45px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    outline: transparent;
+}
+.save-info{
+    margin-top: 1rem;
+}
+
+
+select{
+    background-color: #fff;
+    width: 200px;
+    height:45px ;
+    padding: .4rem 0rem .4rem 1rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.save-info{
+    font-size: 12px ;
+    color: #4F4F4F;
+    margin-bottom: 2rem;
+}
+.save-info input{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.continue{
+    width: 166px;
+    height: 54px;
+    border: none;
+    border-radius: 12px;
+    background-color: #F2994A ;
+    color: #fff;
+    font-family: var(--font-pri);
+    font-weight: 600;
+    position: relative;
+    left: 18rem;
+
+
+}
+.continue:hover{
+    background-color: #f38729 ;
+}
+
+.continue a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cart{
+
+    max-width: 383px;
+    min-width: 350px;
+    height: 535px;
+    margin: 3rem auto;
+    background: #F2F2F2;
+
+    border-radius: 18px;
+    padding: 2rem;
+}
+
+.cart-item, .shipping, .total{
+    display: flex;
+}
+.cart-item{
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.item-img{
+    flex: 1 1;
+    max-width: 120px;
+}
+.item-img img{
+    border-radius: 16px;
+}
+.item-details h3{
+    margin-bottom: .2rem;
+    font-family: var(--font-pri);
+    font-size: clamp(0.75rem, 0.662rem + 0.3756vw, 1rem);
+    font-weight: 600;
+    color: #4E5150;
+}
+.dollar-sign{
+    color: #F2994A;
+
+}
+#price{
+    padding-right: 1.4rem;
+    color:#F2994A;
+    font-weight: 600;
+}
+del{
+    font-size: clamp(0.625rem, 0.581rem + 0.1878vw, 0.75rem);
+    color: #4E5150;
+    font-weight: 600;
+}
+.quantity-btns{
+    margin-top: 1.8rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(122, 122, 122, .6);
+    max-width: 134px;
+    min-width: 122px;
+    max-height: 50px;
+    border-radius: 12px;
+}
+.quantity-btns button{
+    border: transparent;
+    background: #E0E0E0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.shipping , .total {
+    font-size: clamp(0.875rem, 0.787rem + 0.3756vw, 1.125rem);
+    font-family: var(--font-pri);
+    color: #333333;
+}
+.shipping{
+    margin-top: 6rem;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    padding: .4rem 0 .4rem 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total{
+    padding: .4rem 0 .4rem 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  footer p {
+    text-align: center;
+    font-family: var(--font-pri);
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+  }
+  footer p a {
+    text-decoration: none;
+    color: #828282;
+  }
+@media screen and (max-width:768px){
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2rem;
+    }
+    .forms{
+        margin-top: -1rem;
+    }
+   .heading{
+    margin-top: 1rem;
+   }
+   footer{
+    margin-top: 2rem;
+   }
+
+}
+
+@media screen and (max-width:600px){
+    .input-field{
+        width:340px;
+    }
+    .country select{
+        width: 160px;
+    }
+    .postal-code input{
+          width: 160px;
+    }
+    .continue{
+        left: 11.2rem;
+    }
+}

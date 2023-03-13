@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>CheckOut Page</title>
+  </head>
+  <body>
+    <h1 class="heading">Checkout</h1>
+    <div class="container">
+      <section class="cart">
+        <div class="cart-items">
+          <div class="cart-item">
+            <div class="item-img">
+              <img src="images/photo1.png" alt="Backbag" />
+            </div>
+            <div class="item-details">
+              <h3>Vintage Backbag</h3>
+              <div class="price-div">
+                <span class="dollar-sign">$</span><span id="price">54.99</span>
+                <span><del>$94.99</del></span>
+              </div>
+              <div class="quantity-btns">
+                <button id="decrement">-</button>
+                <span id="quantity">1</span>
+                <button id="increment">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <div class="item-img">
+              <img src="images/photo2.png" alt="Backbag" />
+            </div>
+            <div class="item-details">
+              <h3>Levi Shoes</h3>
+              <div class="price-div">
+                <span class="dollar-sign">$</span><span id="price">74.99</span>
+                <span><del>$124.99</del></span>
+              </div>
+              <div class="quantity-btns">
+                <button id="decrement">-</button>
+                <span id="quantity">1</span>
+                <button id="increment">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shipping">
+          <h3>Shipping</h3>
+          <span id="shipping-fee"><span>$</span>19</span>
+        </div>
+        <div class="total">
+          <h3>Total</h3>
+          <span id="total-price">148.98</span>
+        </div>
+      </section>
+      <section class="forms">
+        <div class="contact-info">
+          <h4>Contact Information</h4>
+          <form>
+            <p>E-mail</p>
+            <div class="input-icons">
+              <i class="fa fa-envelope icon"> </i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Enter your email..."
+                required
+              />
+            </div>
+            <p>Phone</p>
+            <div class="input-icons">
+              <i class="fa fa-phone icon"></i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Enter your phone..."
+                required
+              />
+            </div>
+          </form>
+        </div>
+
+        <div class="shipping-info">
+          <h4>Shipping Information</h4>
+          <form>
+            <p>Full name</p>
+            <div class="input-icons">
+              <i class="fa fa-user icon"> </i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Your name..."
+                required
+              />
+            </div>
+            <p>Address</p>
+            <div class="input-icons">
+              <i class="fa fa-home icon"> </i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Your address..."
+                required
+              />
+            </div>
+            <p>City</p>
+            <div class="input-icons">
+              <i class="fa fa-building icon"> </i>
+              <input
+                class="input-field"
+                type="text"
+                placeholder="Your city..."
+                required
+              />
+            </div>
+          </form>
+
+          <div class="code">
+            <div class="country">
+              <p>Country</p>
+              <label>
+                <select>
+                  <option>Choose Country</option>
+                  <option>BBB</option>
+                  <option>CCC</option>
+                  <option>DDD</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="postal-code">
+              <form>
+                <p >Postal Code</p>
+                <input type="number" name="" placeholder="You postal code.." required/>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <p class="save-info"><input  type="checkbox"> Save this information for next time </p>
+        <button class="continue" type="submit" herf="#"><a href="#">Continue</a></button>
+      </section>
+    </div>
+
+    <footer><p>created by <a href="https://github.com/umar5678">umar farooq</a> - devChallenges.io</p></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
